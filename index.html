@@ -5,20 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="\css\style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+
+    <title>Product Page</title>
   </head>
   <body>
     <!-- IDEA: nav -->
 
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">B-Fizzy</span>
+        <a class="navbar-brand" href="#">
+          <img src="https://p7.hiclipart.com/preview/494/348/840/flame-fire-logo-flame.jpg" width="30" height="30" alt="">
+        </a>
+    </nav>
+    <div class="container-fluid">
 
     <!-- IDEA: jumbotron -->
-
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Responsive Image</h1>
+        <img src="" alt="grabber" class="img-fluid">
+      </div>
+    </div>
 
     <!-- IDEA: <section>
-      heading
+
+      heading h4
       div label
       button
       toggle
@@ -28,8 +43,135 @@
         row
           col
     </section> -->
+    <section>
+
+      <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Location:
+            </button>
+      <div class="dropdown-menu  mx-auto justify-content-center" aria-labelledby="dropdownMenuButton">
+        <!-- <a class="dropdown-item" href="#">Action</a> -->
+        <a class="dropdown-item">Alabama</a>
+        <a class="dropdown-item">Alaska</a>
+        <a class="dropdown-item">Arizona</a>
+        <a class="dropdown-item">Arkansas</a>
+        <a class="dropdown-item">California</a>
+        <a class="dropdown-item">Colorado</a>
+        <a class="dropdown-item">Connecticut</a>
+        <a class="dropdown-item">Delaware</a>
+        <a class="dropdown-item">District Of Columbia</a>
+        <a class="dropdown-item">Florida</a>
+        <a class="dropdown-item">Georgia</a>
+        <a class="dropdown-item">Hawaii</a>
+        <a class="dropdown-item">Idaho</a>
+        <a class="dropdown-item">Illinois</a>
+        <a class="dropdown-item">Indiana</a>
+        <a class="dropdown-item">Iowa</a>
+        <a class="dropdown-item">Kansas</a>
+        <a class="dropdown-item">Kentucky</a>
+        <a class="dropdown-item">Louisiana</a>
+        <a class="dropdown-item">Maine</a>
+        <a class="dropdown-item">Maryland</a>
+        <a class="dropdown-item">Massachusetts</a>
+        <a class="dropdown-item">Michigan</a>
+        <a class="dropdown-item">Minnesota</a>
+        <a class="dropdown-item">Mississippi</a>
+        <a class="dropdown-item">Missouri</a>
+        <a class="dropdown-item">Montana</a>
+        <a class="dropdown-item">Nebraska</a>
+        <a class="dropdown-item">Nevada</a>
+        <a class="dropdown-item">New Hampshire</a>
+        <a class="dropdown-item">New Jersey</a>
+        <a class="dropdown-item">New Mexico</a>
+        <a class="dropdown-item">New York</a>
+        <a class="dropdown-item">North Carolina</a>
+        <a class="dropdown-item">North Dakota</a>
+        <a class="dropdown-item">Ohio</a>
+        <a class="dropdown-item">Oklahoma</a>
+        <a class="dropdown-item">Oregon</a>
+        <a class="dropdown-item">Pennsylvania</a>
+        <a class="dropdown-item">Rhode Island</a>
+        <a class="dropdown-item">South Carolina</a>
+        <a class="dropdown-item">South Dakota</a>
+        <a class="dropdown-item">Tennessee</a>
+        <a class="dropdown-item">Texas</a>
+        <a class="dropdown-item">Utah</a>
+        <a class="dropdown-item">Vermont</a>
+        <a class="dropdown-item">Virginia</a>
+        <a class="dropdown-item">Washington</a>
+        <a class="dropdown-item">West Virginia</a>
+        <a class="dropdown-item">Wisconsin</a>
+        <a class="dropdown-item">Wyoming</a>
+        </div>
+      </div>
+      <div class="dropdown-divider"></div>
+
+
+
+      <p class="lead">Buy</p>
+      <div class="row buy">
+        <div class="col">
+          <button type="button" class="btn btn-outline-success">option 1</button>
+
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-outline-success">option 2</button>
+
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-outline-success">option 3</button>
+
+        </div>
+
+      </div>
+      <div class="dropdown-divider"></div>
+
+
+      <p class="lead">Rent</p>
+      <div class="row rent">
+        <div class="col">
+          <button type="button" class="btn btn-outline-warning">option 1</button>
+
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-outline-warning">option 2</button>
+
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-outline-warning">option 3</button>
+
+        </div>
+
+      </div>
+
+    </section>
+    <div class="container">
+      <form>
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="Rick ">
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control" id="lastName" placeholder="Rubin">
+    </div>
+    <div class="form-group">
+      <label for="inputEmail1">Email address</label>
+      <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+  <label for="phone">Phone Number</label>
+  <input id="phone" type="tel" class="form-control" data-test="phone" value="" placeholder="(xxx)xxx-xxxx" pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}'
+       required>
+</div>
+  </form>
+
+    </div>
 
     <!-- IDEA: form -->
+  </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
