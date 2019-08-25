@@ -10,3 +10,9 @@
   max-width: 100%;
   height: auto;
 }
+
+.form-control{
+  background-color: #ededed;
+  border: 0;
+  border-radius: 25px;
+}
