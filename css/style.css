@@ -16,3 +16,10 @@
   border: 0;
   border-radius: 25px;
 }
+.form-control-sm{
+  border:0;
+}
+
+.mx-auto{
+  width:300px;
+}
