@@ -6,6 +6,25 @@
 
 @media (min-width: 1200px) { ... } */
 
+@@font-face {
+  font-family: Gotham-Book;
+  src: url(bfizzy\fonts\Gotham Book Regular.otf);
+}
+
+@@font-face {
+  font-family: Gotham-Medium;
+  src: url(bfizzy\fonts\Gotham Medium Regular.ttf);
+}
+
+.font1{
+  font-family: Gotham-Book;
+}
+.font2{
+  font-family: Gotham-Medium;
+}
+
+
+
 .img-fluid{
   max-width: 100%;
   height: auto;
@@ -22,4 +41,8 @@
 
 .mx-auto{
   width:300px;
+}
+
+.btn{
+  background-color: white;
 }
